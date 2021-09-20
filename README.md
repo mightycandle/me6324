@@ -1,14 +1,13 @@
-Not Today
+**Material**:
+* pla - 0
+* abs - 1
 
-material:
-abs-1; pla-0
+**In-fill pattern**:
+* honeycomb - 0
+* grid      - 1
 
-infill:
-grid-1; honeycomb-0
-
-
-Book1 : 00
-Book2 : 01
-Book3 : 10
-Book4 : 11
-(material first, infill next)
+**Files**: (*material, in-fill*)<br>
+* Book1 : 00 <br>
+* Book2 : 01 <br>
+* Book3 : 10 <br>
+* Book4 : 11 <br>
