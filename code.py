@@ -9,7 +9,6 @@ data=pd.read_csv("book4.csv")
 x=data.drop('strength',axis=1)
 x=x.drop('roughness',axis=1)
 
-
 y1=data.infill_density
 y2=data.wall_thickness
 y3=data.roughness
@@ -19,7 +18,7 @@ y=y4
 
 score=0
 epoch=0
-thresh=0.9728390079222624
+thresh=0.95
 cur=0
 lr_coef1=[]
 lr_intc1=0
