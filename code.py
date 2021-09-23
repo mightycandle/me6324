@@ -37,12 +37,3 @@ while(epoch<2000):
         lr_coef1=list(LR.coef_)
         lr_intc1=LR.intercept_
 print("Max R2 score is {0}".format(score))
-if(score>thresh):
-    print("Noice! Note down ASAP.\n")
-    for x in lr_coef1:
-        print(x)
-    print(lr_intc1)
-    print(score)
-    
-else:
-    print("Meh run again.")
