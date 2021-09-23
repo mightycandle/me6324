@@ -5,28 +5,28 @@ from sklearn.metrics import r2_score
 
 
 data=pd.read_csv("book4.csv")
-data=data.drop('strength',axis=1)
 
-x=data
-x=x.drop('infill_density',axis=1)
-x=x.drop('wall_thickness',axis=1)
+x=data.drop('strength',axis=1)
 x=x.drop('roughness',axis=1)
 
 
 y1=data.infill_density
 y2=data.wall_thickness
 y3=data.roughness
+y4=data.strength
+
+y=y4
 
 score=0
 epoch=0
-thresh=0.8
+thresh=0.9728390079222624
 cur=0
 lr_coef1=[]
 lr_intc1=0
 
-while(epoch<1000):
+while(epoch<2000):
     epoch+=1
-    x_train,x_test,y_train,y_test=train_test_split(x,y2,test_size=0.2)
+    x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2)
     
     LR=LinearRegression()
     LR.fit(x_train,y_train)
@@ -39,9 +39,11 @@ while(epoch<1000):
         lr_intc1=LR.intercept_
 print("Max R2 score is {0}".format(score))
 if(score>thresh):
-    print("Noice! Note down ASAP.")
-    print(lr_coef1)
+    print("Noice! Note down ASAP.\n")
+    for x in lr_coef1:
+        print(x)
     print(lr_intc1)
     print(score)
+    
 else:
     print("Meh run again.")
