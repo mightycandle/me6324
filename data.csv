@@ -104,7 +104,6 @@ layer_height,print_speed,fan_speed,bed_temperature,nozzle_temperature,infill_den
 0.2,40,90,78,218,44,4,238,238,pla,honeycomb
 0.2,40,95,79,219,42,4,234,234,pla,honeycomb
 0.2,40,100,80,220,41,4,232,232,pla,honeycomb
-layer_height,print_speed,fan_speed,bed_temperature,nozzle_temperature,infill_density,wall_thickness,roughness,strength,material,infill_pattern
 0.02,40,25,65,205,32,5,69,17,pla,grid
 0.02,40,30,66,206,35,5,65,18,pla,grid
 0.02,40,35,67,207,38,5,61,19,pla,grid
@@ -160,7 +159,6 @@ layer_height,print_speed,fan_speed,bed_temperature,nozzle_temperature,infill_den
 0.2,40,65,73,213,41,6,244,26,pla,grid
 0.2,40,70,74,214,44,6,240,27,pla,grid
 0.2,40,75,75,215,47,6,236,28,pla,grid
-layer_height,print_speed,fan_speed,bed_temperature,nozzle_temperature,infill_density,wall_thickness,roughness,strength,material,infill_pattern
 0.02,40,25,65,225,47,4,8,12,abs,honeycomb
 0.02,40,30,66,226,49,4,18,12,abs,honeycomb
 0.02,40,35,67,228,51,4,28,12,abs,honeycomb
@@ -216,7 +214,6 @@ layer_height,print_speed,fan_speed,bed_temperature,nozzle_temperature,infill_den
 0.2,40,65,73,237,64,7,335,27,abs,honeycomb
 0.2,40,70,74,238,66,8,344,26,abs,honeycomb
 0.2,40,75,75,240,68,8,355,26,abs,honeycomb
-layer_height,print_speed,fan_speed,bed_temperature,nozzle_temperature,infill_density,wall_thickness,roughness,strength,material,infill_pattern
 0.02,40,0,60,220,81,17,2,24,abs,grid
 0.02,40,5,61,221,80,17,8,23,abs,grid
 0.02,40,10,62,222,78,17,14,21,abs,grid
