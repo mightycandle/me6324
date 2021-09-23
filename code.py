@@ -17,14 +17,12 @@ y4=data.strength
 y=y4
 
 score=0
-epoch=0
-thresh=0.95
 cur=0
+thresh=0.95
 lr_coef1=[]
 lr_intc1=0
 
-while(epoch<2000):
-    epoch+=1
+for epoch in range(2000):
     x_train,x_test,y_train,y_test=train_test_split(x,y,test_size=0.2)
     
     LR=LinearRegression()
