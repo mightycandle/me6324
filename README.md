@@ -1,5 +1,5 @@
 **Important**:
-* Ignore book1-4.csv's on this repo as of now, look at the excel [sheet](https://docs.google.com/spreadsheets/d/1oqmQWbrSk1_UF8Q-CGFdXxojh6ItJZoYwvebjrMaSZA/edit?usp=sharing). Make sure to not mess up the lines as formulae are dependent.
+* Guys, don't mess up the csv entries. 
 
 **Material**:
 * pla - 0
