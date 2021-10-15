@@ -1,11 +1,11 @@
 **Important**:
 * Guys, don't mess up the csv entries. 
 
-**Material**:
+**Material**:  (Reverse in the final ipynb file)
 * pla - 0
 * abs - 1
 
-**In-fill pattern**:
+**In-fill pattern**:  (Reverse in the final ipynb file)
 * honeycomb - 0
 * grid      - 1
 
